@@ -1,0 +1,5 @@
+dependencies: \
+  /Users/stefan/Documents/Codefluegel/educationProjects/reactNative/tech_stack/node_modules/react-native/React/Profiler/RCTFPSGraph.m \
+  /Users/stefan/Documents/Codefluegel/educationProjects/reactNative/tech_stack/node_modules/react-native/React/Profiler/RCTFPSGraph.h \
+  /Users/stefan/Documents/Codefluegel/educationProjects/reactNative/tech_stack/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/stefan/Documents/Codefluegel/educationProjects/reactNative/tech_stack/node_modules/react-native/React/Base/RCTAssert.h
