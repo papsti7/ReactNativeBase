@@ -1,6 +1,7 @@
 // import
 import React from 'react';
 import { Text, View } from 'react-native';
+import PropTypes from 'prop-types';
 
 // create component
 const Header = (props) => {
@@ -34,7 +35,7 @@ Header.defaultProps = {
 };
 
 Header.propTypes = {
-  headerText: React.PropTypes.string,
+  headerText: PropTypes.string,
 };
 
 // make component available to other parts of the app

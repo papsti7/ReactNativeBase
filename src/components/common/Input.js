@@ -1,5 +1,6 @@
 import React from 'react';
 import { TextInput, View, Text } from 'react-native';
+import PropTypes from 'prop-types';
 
 const Input = (props) => {
   const { inputStyle, labelStyle, containerStyle } = styles;
@@ -19,11 +20,11 @@ const Input = (props) => {
 };
 
 Input.propTypes = {
-  label: React.PropTypes.string.isRequired,
-  secureTextEntry: React.PropTypes.string,
-  placeholder: React.PropTypes.string.isRequired,
-  value: React.PropTypes.string,
-  onChangeText: React.PropTypes.func.isRequired,
+  label: PropTypes.string.isRequired,
+  secureTextEntry: PropTypes.string,
+  placeholder: PropTypes.string.isRequired,
+  value: PropTypes.string,
+  onChangeText: PropTypes.func.isRequired,
 };
 
 Input.defaultProps = {

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Text, TouchableOpacity } from 'react-native';
+import PropTypes from 'prop-types';
 
 const styles = {
   textStyle: {
@@ -29,8 +30,8 @@ const Button = props => (
 );
 
 Button.propTypes = {
-  children: React.PropTypes.node.isRequired,
-  onPress: React.PropTypes.func.isRequired,
+  children: PropTypes.node.isRequired,
+  onPress: PropTypes.func.isRequired,
 };
 
 export { Button };
