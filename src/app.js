@@ -5,7 +5,7 @@ import { createStore } from 'redux';
 import reducers from './reducers';
 import { Header } from './components/common';
 
-const app = () => (
+const App = () => (
   <Provider store={createStore(reducers)}>
     <View>
       <Header headerText="Tech_Stack" />
@@ -13,4 +13,4 @@ const app = () => (
   </Provider>
 );
 
-export default app;
+export default App;
